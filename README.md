@@ -1,8 +1,10 @@
 # ASYNC-TCP-SERVER
 
-The TCP server is written by C can handle multiple concurrency clients.
+12 hours of coding TCP server from scratch by C can handle multiple concurrency clients.
 
 ## Usage
+
+![Demo](./nonblocking-tcp-server.gif)
 
 Build it
 
@@ -16,3 +18,5 @@ Run
 > ./async_tcp_server 0.0.0.0 9999
 Listen TCP server at 0.0.0.0 9999
 ```
+
+Create client and connect (use `nc` or other tools)
